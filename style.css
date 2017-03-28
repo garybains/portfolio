@@ -1,3 +1,24 @@
-body {
-  background-color: red;
+/* Navigation : fixed at the top */
+#navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.main-heading {
+  margin-top: 25px;
+}
+
+.main-heading > img {
+  display: inline-block;
+  max-width: 100px;
+  border-radius: 100%;
+}
+
+.main-heading > div > h1 {
+  display: inline-block;
+  font-weight: 200;
+  color: gray;
+  margin-top: 15px;
+  font-size: 3.5em;
 }
