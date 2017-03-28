@@ -1,9 +1,21 @@
+/* Applies to entire page */
+body {
+  background-color: #fcfafc; /* really light grey with slight green */
+  color: gray;
+  font-weight: 200;
+}
+
 /* Navigation : fixed at the top */
 #navigation {
   display: flex;
   justify-content: space-around;
+  font-weight: 400;
 }
 
+#navigation > li > a {
+  font-size: 1.5rem;
+  color: #fcfafc;
+}
 
 .main-heading {
   margin-top: 25px;
@@ -12,13 +24,20 @@
 .main-heading > img {
   display: inline-block;
   max-width: 100px;
-  border-radius: 100%;
+  border-radius: 20%;
 }
 
 .main-heading > div > h1 {
   display: inline-block;
   font-weight: 200;
-  color: gray;
   margin-top: 15px;
-  font-size: 3.5em;
+  font-size: 3.5rem;
+}
+
+.skills {
+  font-size: 1.3rem;
+}
+
+.skills i {
+  padding: 0 5px;
 }

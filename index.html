@@ -6,6 +6,8 @@
     <!--Import materialize.css-->
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <!--Import google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- custom CSS-->
     <link rel="stylesheet" href="style.css">
 
@@ -14,22 +16,70 @@
   </head>
 
   <body>
-    <nav>
-      <div class="nav-wrapper">
-        <ul id="navigation">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+
+    <!-- Navigation of page fixed at top -->
+    <div id="top" class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper teal lighten-1">
+          <ul id="navigation">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
     <div class="container">
+
       <div class="row main-heading">
         <img class="col m3" src="img/me.png" alt="Myself">
-        <div class="col m9"><h1 class="heading-name flow-text">Gurpreet "Gary" Singh</h1></div>
+        <div class="col m9"><h1 class="heading-name ">Gurpreet "Gary" Singh</h1></div>
       </div>
-      <p>I am currently a Mobile Solutions Development student at Conestoga College 
+      <p class="flow-text">I am currently a Mobile Solutions Development student at Conestoga College
       Seeking a Co-op position from May to August 2017 (4 months)</p>
+
+      <div class="divider"></div>
+
+      <div class="row skills flow-text">
+        <div class="col s12">
+          <p>I work with following:</p>
+        </div>
+        <div class="col s12 l6">
+          <ul class="collection with-header">
+            <li class="collection-header"><h5>Front End Technologies</h5></li>
+            <li class="collection-item">
+              <i class="tiny material-icons">album</i> HTML/CSS, Bootstrap, Material UI
+            </li>
+            <li class="collection-item">
+              <i class="tiny material-icons">album</i> JavaScript, React, JQuery
+            </li>
+            <li class="collection-item">
+              <i class="tiny material-icons">album</i> Google Maps, D3(Data Driven Documents)
+            </li>
+          </ul>
+        </div>
+        <div class="col s12 l6">
+          <ul class="collection with-header">
+            <li class="collection-header"><h5> Back End Technologies</h5></li>
+            <li class="collection-item">
+              <i class="tiny material-icons">album</i> Python, Django
+            </li>
+            <li class="collection-item">
+              <i class="tiny material-icons">album</i> JavaScript, Node, Express
+            </li>
+            <li class="collection-item">
+              <i class="tiny material-icons">album</i> Java, C#
+            </li>
+            <li class="collection-item">
+              <i class="tiny material-icons">album</i> Linux command line, git, and basic AWS
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
     </div>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
