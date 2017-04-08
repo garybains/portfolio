@@ -82,3 +82,8 @@ body {
   font-weight: 900;
   text-shadow: 1px 1px 3px black;
 }
+
+.card-title {
+  background-color: rgba(80, 80, 80, 0.3);
+  width: 100%;
+}
