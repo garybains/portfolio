@@ -21,10 +21,19 @@ var Gurpreet = {
         "selfie": [],
         "quiz": ["quiz_1.png"]
     },
-    selectedPro : null
+    selectedPro : null,
+    imgIdx: 0
 }
 
 function imgClicked(imgName) {
     Gurpreet.selectedPro = imgName;
-    $("#modal_img").attr('src', 'img/' + Gurpreet.images[Gurpreet.selectedPro][0] );
+    Gurpreet.imgIdx = 0;
+    $("#modal_img").attr('src', 'img/' + Gurpreet.images[Gurpreet.selectedPro][Gurpreet.imgIdx] );
 }
+
+
+$("#modal_img").click( function() {
+    Gurpreet.imgIdx += 1;
+    Gurpreet.imgIdx = Gurpreet.imgIdx % Gurpreet.images[Gurpreet.selectedPro].length;
+    $("#modal_img").attr('src', 'img/' + Gurpreet.images[Gurpreet.selectedPro][Gurpreet.imgIdx] );
+});
