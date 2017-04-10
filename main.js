@@ -14,8 +14,9 @@ $("#quiz_img").click( function() {imgClicked("quiz")} );
 // global variable Gurpreet to contain all image names and related parameters
 var Gurpreet = {
     images : {
-        "tic": ["tic_1.png", "tic_2.png"],
-        "res": ["res_vis_1.png", "res_vis_2.png"],
+        "tic": ["tic_1.png", "tic_2.png", "tic_3.png"],
+        "res": ["res_vis_1.png", "res_vis_2.png", "res_vis_3.png", "res_vis_4.png",
+                "res_vis_5.png"],
         "buseeta": ["buseeta_1.png"],
         "car_portal": ["car_portal_1.png"],
         "selfie": [],
