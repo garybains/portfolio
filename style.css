@@ -76,6 +76,8 @@ body {
 /* Modifying CSS library */
 .card-action {
   font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .card .card-title {
